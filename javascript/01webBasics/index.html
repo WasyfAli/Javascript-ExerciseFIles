@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript for WebDevelopers</title>
+    
+</head>
+<body>
+    <h1>DOM- Document Object Model</h1>
+    <p>
+        Document-- Any Document(Excel, html)<br />
+        Object--   Anything put inside html doc(all the tags) <br />
+        Model-- How you layout all of these structure
+
+    </p>
+    <h4>How to take advantage of DOM</h4>
+
+    <p>regular p tag</p>
+    <p id="idone">P tag with id</p>
+    <p class="classone">P tag with class</p>
+    <p>paragraph</p>
+    <h4>Where to put JS files = in Body || in Head</h4>
+    <p>If we put Js files in head so in console it will give undefine
+        but if we put them in body it will give output..
+    </p>
+    <p>It depends wht you want to do.. If its execution depends on the <body>
+        so its good to  put in body.Because in head it execute and stop before body executes.
+    </body></p>
+
+
+    <p>------------------------EVENTS, FORMS----------------------</p>
+    <input type="text" name="" id="myform" placeholder="search here">
+    <button onclick="myValidation()">Click Me</button>
+    
+    <form action="" class="myform" >
+        <input type="text" name="username" placeholder="Username">
+        <input type="text" name="realname" placeholder="RealName">
+    <button type="submit">  Submit  </button>    
+    </form>
+
+    <p>------------------------Login Form----------------------</p>
+
+    <form action="" class="loginform" >
+        <input type="text" name="email" placeholder="Enter Email"><br />
+        <input type="password" name="passwordOne" placeholder="Enter Password"><br />
+        <input type="password" name="passwordTwo" placeholder="reEnter Password"><br />
+    <button type="submit">  Submit  </button>    
+    <button type="reset">  Reset  </button>    
+    </form>
+
+
+    <script src="jsonhandle.js"></script>
+</body>
+</html>
